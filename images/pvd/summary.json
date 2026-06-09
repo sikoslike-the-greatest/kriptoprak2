@@ -1,0 +1,108 @@
+{
+  "cover_shape": [
+    512,
+    512,
+    3
+  ],
+  "experiment_1_max": {
+    "payload_bytes": 166259,
+    "payload_bits": 1330072,
+    "psnr_db": 31.590483569196003,
+    "mse": 45.08499272664388,
+    "rmse": 6.71453592786902,
+    "ssim": 0.8990791165384145,
+    "capacity_bpp": 5.073822021484375,
+    "pairs_used": 325662,
+    "pairs_total": 393216
+  },
+  "experiment_2_varying": [
+    {
+      "fraction": 0.1,
+      "payload_bytes": 16625,
+      "payload_bits": 133000,
+      "psnr_db": 47.328398423090505,
+      "mse": 1.2029304504394531,
+      "rmse": 1.09678186091832,
+      "ssim": 0.9951816653975184,
+      "capacity_bpp": 0.507354736328125
+    },
+    {
+      "fraction": 0.25,
+      "payload_bytes": 41564,
+      "payload_bits": 332512,
+      "psnr_db": 42.40672155888694,
+      "mse": 3.736011505126953,
+      "rmse": 1.9328764847053608,
+      "ssim": 0.9870807543727924,
+      "capacity_bpp": 1.2684326171875
+    },
+    {
+      "fraction": 0.5,
+      "payload_bytes": 83129,
+      "payload_bits": 665032,
+      "psnr_db": 38.887181687306466,
+      "mse": 8.401603698730469,
+      "rmse": 2.8985520003495657,
+      "ssim": 0.9705290662133444,
+      "capacity_bpp": 2.536895751953125
+    },
+    {
+      "fraction": 0.75,
+      "payload_bytes": 124694,
+      "payload_bits": 997552,
+      "psnr_db": 33.78607954201184,
+      "mse": 27.19395701090495,
+      "rmse": 5.2147825468474664,
+      "ssim": 0.9303347097191056,
+      "capacity_bpp": 3.80535888671875
+    },
+    {
+      "fraction": 1.0,
+      "payload_bytes": 166259,
+      "payload_bits": 1330072,
+      "psnr_db": 31.590483569196003,
+      "mse": 45.08499272664388,
+      "rmse": 6.71453592786902,
+      "ssim": 0.8990791165384145,
+      "capacity_bpp": 5.073822021484375
+    }
+  ],
+  "experiment_3_robustness": [
+    {
+      "attack": "none (clean stego)",
+      "psnr_stego_vs_attacked": Infinity,
+      "ber": 0.0,
+      "exact_match": true
+    },
+    {
+      "attack": "brightness +5",
+      "psnr_stego_vs_attacked": 34.189492187148964,
+      "ber": 0.0008119910019367489,
+      "exact_match": false
+    },
+    {
+      "attack": "Gaussian noise sigma=2",
+      "psnr_stego_vs_attacked": 44.126228491956454,
+      "ber": 0.4998977492812376,
+      "exact_match": false
+    },
+    {
+      "attack": "salt-and-pepper 0.5%",
+      "psnr_stego_vs_attacked": 27.560008740052876,
+      "ber": 0.49990376402940007,
+      "exact_match": false
+    },
+    {
+      "attack": "JPEG quality 90",
+      "psnr_stego_vs_attacked": 34.92680353768766,
+      "ber": 0.4993173260835569,
+      "exact_match": false
+    },
+    {
+      "attack": "JPEG quality 70",
+      "psnr_stego_vs_attacked": 32.49458436397519,
+      "ber": 0.499860157105222,
+      "exact_match": false
+    }
+  ]
+}

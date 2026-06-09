@@ -1,0 +1,7 @@
+attack,psnr_stego_vs_attacked,ber,exact_match
+none (clean stego),inf,0.0,True
+brightness +5,34.189492187148964,0.0008119910019367489,False
+Gaussian noise sigma=2,44.126228491956454,0.4998977492812376,False
+salt-and-pepper 0.5%,27.560008740052876,0.49990376402940007,False
+JPEG quality 90,34.92680353768766,0.4993173260835569,False
+JPEG quality 70,32.49458436397519,0.499860157105222,False

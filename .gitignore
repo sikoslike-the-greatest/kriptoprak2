@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+
+# Node / frontend
+node_modules/
+dist/
+.env
+.env.*
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Задания / примеры от преподавателя (не коммитим)
+требования_и_пример/
+
+# LaTeX (сборка рядом с .tex)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+*.lof
+*.lot
+*.pdf
+*.tex 
+
+# Временные / случайные файлы в корне
+_doc_structure_tmp.txt
+*.tmp
+*~
+*.swp
+*.tar.gz
+
+# Мусор macOS (AppleDouble)
+._*
